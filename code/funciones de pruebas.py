@@ -1,5 +1,3 @@
-# Ejemplo practico de herencia
-
 class Calculadora:
     def __init__(self, numero): #constructor
         self.num = numero
@@ -30,23 +28,7 @@ class raiz(Calculadora):
         a, = self.datos
         print("el resultado es: ", math.sqrt(a))
 
-#creamos el objeto y le asignamos la clase
-ejemplo = op_basicas()
-print(ejemplo.ingresardato())
-print(ejemplo.suma())
-
-ejemplo2 = raiz()
-print(ejemplo2.ingresardato())
-print(ejemplo2.cuadrada())
-
-
-
-
-
-
-
-
-
-
-
-
+#Funcion de prueba
+object = op_basicas()
+print(isinstance(object, op_basicas) )# Verificamos la herencia, (si el objeto esta en esa clase)
+print(issubclass(op_basicas, Calculadora)) #verificamos herencia de clases (hijo, padre)
