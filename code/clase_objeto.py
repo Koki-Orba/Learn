@@ -1,14 +1,21 @@
-#Class y objets II
+#First excercise with class and objects
 
-class jugadores_a:
-#j1 y j2 are objets
-    j1 = "messi"
-    j2 = "c.ronaldo"
+class nombre:
+    pass
 
-#print(jugadores.j2)
+victor = nombre()
+maria = nombre()
 
-class jugadores_b:
-    j3 = "marcelo"
-    j1 = "falcao"
+#un atributo es una caracteristica de nuestro objeto y se declara asi:
+#object.atributo = valor
 
-print(jugadores_b.j1) #Falcao prints us because he only accesses the class data of jugadores_b
+victor.age = 30
+victor.sex = "male"
+victor.country = "Costa Rica"
+
+maria.age = 25
+maria.sex = "female"
+maria.country = "Colombia"
+
+print(victor.age)
+print(maria.age)
