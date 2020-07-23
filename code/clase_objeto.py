@@ -2,13 +2,13 @@
 #Class: Python
 #Topic: Method (A method is like a funtion)
 
-class Ropa:
-    def __init__(self):
-        self.mark = "nike"
-        self.size = "small"
-        self.color = "sed"
-t_shirt = Ropa()
-print(t_shirt.size)
-print(t_shirt.mark)
-print(t_shirt.color)
+class Calculator:
+    def __init__(self, n1, n2):
+        self.addition = n1 + n2
+        self.subtraction = n1 - n2
+        self.multiplication = n1 * n2
+        self.division = n1 / n2
+
+operation = Calculator(2, 3)
+print("El resultado es:", operation.multiplication)
 
