@@ -1,21 +1,12 @@
-#First excercise with class and objects
+#Jorge Ortega Badilla
+#Class: Python
+#Topic: Method (A method is like a funtion)
 
-class nombre:
-    pass
+class Mathematic:
+    def sum(self):
+        self.num1 = 2
+        self.num2 = 3
 
-victor = nombre()
-maria = nombre()
-
-#un atributo es una caracteristica de nuestro objeto y se declara asi:
-#object.atributo = valor
-
-victor.age = 30
-victor.sex = "male"
-victor.country = "Costa Rica"
-
-maria.age = 25
-maria.sex = "female"
-maria.country = "Colombia"
-
-print(victor.age)
-print(maria.age)
+s = Mathematic() #Rename a class as s
+s.sum() #call method
+print(s.num1 + s.num2)
