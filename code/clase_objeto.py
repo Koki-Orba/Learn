@@ -1,11 +1,7 @@
-#Clase
+#Clase y objetos II
 
-class Auto:
-    marca = ""
-    modelo = 2004
-    placa = ""
+class persona:
+    doctor =  "victor"  #objeto
 
-taxi = Auto() #objeto
-print(taxi.modelo)
-
-
+#persona.doctor
+print(persona.doctor)
